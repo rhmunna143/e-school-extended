@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section style */
+.banner-peragraph {
+    color: #FD511A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+span {
+    color: #21B573;
+}
+
+body {
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 60px;
+}
+
+.b-peragraph {
+    color: #6C6B6B;
+}
+
+button {
+    border-radius: 33px;
+    background: #21B573;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.banner-container {
+    background: #F0FFF0;
+    padding: 60px 0;
+}
+
+#top-16 {
+    margin-top: 16px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+}
