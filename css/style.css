@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ button {
     padding: 12px 36px;
 }
 
-button:hover{
+button:hover {
     background: black;
     color: white;
     cursor: pointer;
@@ -46,7 +46,7 @@ button:hover{
 
 .banner-container {
     background: #F0FFF0;
-    padding: 60px 0;
+    padding-bottom: 60px 0;
 }
 
 #top-16 {
@@ -60,4 +60,50 @@ button:hover{
 
 .banner {
     display: flex;
+    margin-top: 60px;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>p {
+    color: #56548C;
+    font-family: Rubik;
+    font-size: 24.857px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li>a:hover {
+    color: #21B573;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
